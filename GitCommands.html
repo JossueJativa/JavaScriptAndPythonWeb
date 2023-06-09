@@ -2,33 +2,49 @@
 <html lang="es">
     <head>
         <title>Git Commands</title>
+        <style>
+            h3{
+                color: Red;
+            }
+            p{
+                color: Blue;
+            }
+        </style>
     </head>
 
     <body>
         <h1>Comandos a usar en Git</h1>
-        <a>Comando para identificarse "email y nombre"</a>
+        <h3>Comando para identificarse "email y nombre"</h3>
         <p>git config --global user.email "Email"</p>
         <p>git config --global user.name "Nombre"</p>
-        <a>Comando para clonar repositorio</a>
+        <h3>Comando para clonar repositorio</h3>
         <p>git clone 'url'</p>
-        <a>Comando para crear archivos en terminal git</a>
+        <h3>Comando para crear archivos en terminal git</h3>
         <p>touch</p>
-        <a>Comando para agregar archivos en git</a>
+        <h3>Comando para agregar archivos en git</h3>
         <p>git add 'FileName'</p>
-        <a>Agregar comentarios al repositorio de git</a>
+        <h3>Agregar comentarios al repositorio de git</h3>
         <p>git commit -m "comentario"</p>
-        <a>Comando para ver los que se a hecho en el repositorio local</a>
+        <h3>Comando para ver los que se a hecho en el repositorio local</h3>
         <p>git status</p>
-        <a>Comando para enviar nuestro proyecto a GitHub</a>
+        <h3>Comando para enviar nuestro proyecto a GitHub</h3>
         <p>git push</p>
-        <a>Comando para guardar u enviar comentarios a la vez en git</a>
+        <h3>Comando para guardar u enviar comentarios a la vez en git</h3>
         <p>git commit -am "Comentario"</p>
-        <a>Comando para descargar la ultima version de GitHub</a>
+        <h3>Comando para descargar la ultima version de GitHub</h3>
         <p>git pull</p>
-        <a>Comando para leer los comentarios que han hecho al git</a>
+        <h3>Comando para leer los comentarios que han hecho al git</h3>
         <p>git log</p>
-        <a>Comando para deshacer los cambios que se a hecho en el git</a>
+        <h3>Comando para deshacer los cambios que se a hecho en el git</h3>
         <p>git reset --hard "Comentario"</p>
         <p>git reset --hard origin/master</p>
+        <h3>Comando para ver los branch que tenemos en los repositorios locales</h3>
+        <p>git branch</p>
+        <h3>Comando para crear un nuevo branch</h3>
+        <p>git checkout -b "NombreDelNuevoBranch"</p>
+        <h3>Comando para cambiar de branch</h3>
+        <p>git checkout "NombreDelBranch"</p>
+        <h3>Comando para unir los branch hechos</h3>
+        <p>git merge "NombreDelBranch"</p>
     </body>
 </html>
