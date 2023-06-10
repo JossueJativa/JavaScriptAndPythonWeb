@@ -1,5 +1,7 @@
 #Crear una lista de nombres
-nombres = ["Jossue", "Andres", "Luis", "Antonio"]
+#Se usa corchetes para guardar los datos
+#Se puede usar para guardar coordenadas
+nombres = ["Harry", "Ron", "Hermione", "Ginny"]
 
 #Agregar elementos a la lista
 nombres.append("Sebas")
@@ -14,3 +16,19 @@ House = {"Harry": "Gryffindor", "Draco": "Slytherin"}
 #Como se imprime:
 print(House["Harry"])
 #Donde House es la lista y Harry es la llave para llamar a los elementos
+
+#Tuplas
+#Se usa para guardar datos que no se van a cambiar
+#Se usa parentesis para guardar los datos
+#Se puede usar para guardar coordenadas
+coordenadas = (10.0, 20.0)
+#Se puede imprimir
+print(coordenadas)
+
+#Sets
+#Se usa para guardar datos que no se van a repetir
+#Se usa corchetes para guardar los datos
+#Se puede usar para guardar coordenadas
+coordenadas = [10.0, 20.0, 10.0]
+#Se puede imprimir
+print(coordenadas)
