@@ -21,6 +21,23 @@ class Flight():
 
     def open_seats(self):
         return self.capacity - len(self.passengers)
+    
+##Creacion de una funcion el cual va a aununciar algo
+def announce(f):
+    def wrapper():
+        print ("A punto de ejecutar la funcion...")
+        f()
+        print ("Se ejecuto la funcion")
+    return wrapper
+
+##La funcion utiliza que cuando se llame a la funcion se va a ejecutar la funcion announce
+@announce ##Aqui se llama a la funcion announce
+#cuando llega a la parte de f() se va a ejecutar la funcion hello
+def hello():
+    print ("Hola mundo")
+
+#Imprimir la funcion hello
+hello()
 
 p = Point(3, 5)
 
