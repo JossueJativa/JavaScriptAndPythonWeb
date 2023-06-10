@@ -7,3 +7,10 @@ nombres.append("Sebas")
 nombres.sort()
 #imprimir la lista sin sort
 print(nombres)
+
+#Diccionarios se ocupa las llaves para poder imprimir los datos
+#Se tiene un nombre y una llave, es decir Harry es la llave para que llame a lo que hay dentro de los dos puntos (:)
+House = {"Harry": "Gryffindor", "Draco": "Slytherin"}
+#Como se imprime:
+print(House["Harry"])
+#Donde House es la lista y Harry es la llave para llamar a los elementos
